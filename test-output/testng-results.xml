@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[hello java]]>
+    </line>
+    <line>
+      <![CDATA[hello selenium]]>
+    </line>
+    <line>
+      <![CDATA[hello python]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-18T17:11:14 IST" name="Suite" finished-at="2023-10-18T17:11:14 IST" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2023-10-18T17:11:14 IST" name="Test" finished-at="2023-10-18T17:11:14 IST" duration-ms="47">
+      <class name="script.Testcase1">
+        <test-method signature="tc1()[pri:0, instance:script.Testcase1@78b66d36]" started-at="2023-10-18T17:11:14 IST" name="tc1" finished-at="2023-10-18T17:11:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- script.Testcase1 -->
+      <class name="script.Testcase2">
+        <test-method signature="tc2()[pri:0, instance:script.Testcase2@5223e5ee]" started-at="2023-10-18T17:11:14 IST" name="tc2" finished-at="2023-10-18T17:11:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello python]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- script.Testcase2 -->
+      <class name="script.Testcase3">
+        <test-method signature="tc1()[pri:0, instance:script.Testcase3@7ce3cb8e]" started-at="2023-10-18T17:11:14 IST" name="tc1" finished-at="2023-10-18T17:11:14 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello java]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- script.Testcase3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
